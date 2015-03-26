@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>问答 Q&A </title>
+<link href="style/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="top">
+	<div class="logo">
+    	<a href="about.html"><img src="images/logo.png"></a>
+    </div>
+</div>
+<div id="head">
+	<div class="menu">
+    	<ul>
+        	<li><a href="about.html">ABOUT 概况</a></li>
+            <li><a href="philosophy.html">PHILOSOPHY 理念</a></li>
+            <li><a href="course.html">COURSE 课程</a></li>
+            <li class="current"><a href="qa.html">Q&A 问答</a></li>
+            <li><a href="contact.html">CONTACT 联络我</a></li>
+        </ul>
+    </div>
+</div>
+<div id="body">
+	<div class="content">
+    	<div class="article">
+        	<div class="article_left">
+            	<img src="images/qa_01.jpg">
+            </div>
+            <div class="article_right">
+            	<div class="right_top">
+                	<img src="images/qa_02.jpg">
+                </div>
+                <form action="sendmail.php" method="post">
+                <table width="100%" border="0">
+                  <tr>
+                    <td><label for="username">Your name:</label></td>
+                    <td>
+                    <input type="text" name="username" id="username"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td>
+                    <input type="text" name="email" id="email"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="subject">Subject:</label></td>
+                    <td>
+                    <input type="text" name="subject" id="subject"></td>
+                  </tr>
+                  <tr>
+                    <td><label for="question">Your Question:</label></td>
+                    <td>
+                    <textarea name="question" id="question"></textarea></td>
+                  </tr>
+                  <tr>
+                    <td>
+                    <input type="submit" name="submit" id="submit" value="Send"></td>
+                    <td>&nbsp;</td>
+                  </tr>
+                </table>
+              </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+	<div class="menu">
+    	<div class="follow">
+        	<img src="images/follow.png">
+            <p>Cell:13391226650   Email: <a href="mailto:springwu40@hotmail.com">springwu40@hotmail.com</a></p>
+        </div>
+    </div>
+</div>
+<div style="display:none">
+<script src="http://s11.cnzz.com/z_stat.php?id=1254397272&web_id=1254397272" language="JavaScript"></script>
+</div>
+</body>
+</html>
