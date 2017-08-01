@@ -29,8 +29,8 @@ $msg = "
 // To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-//$headers .= 'To: Haiven <haiven1989@126.com>' . "\r\n";
-//$headers .= 'Cc: Chen Livia <livia.chen@century3inc.cn>, Gao Yu <yu.gao@century3inc.cn>' . "\r\n";
+//$headers .= 'To: Chen Livia <livia.chen@century3inc.cn>' . "\r\n";
+//$headers .= 'Cc: Gao Yu <yu.gao@century3inc.cn>' . "\r\n";
 $headers .= "From: $usermail" . "\r\n";
 // Mail it
 
